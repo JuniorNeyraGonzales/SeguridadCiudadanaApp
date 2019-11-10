@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "422228380038",
+    "firebase_url": "https://alertaseguridadciudadana.firebaseio.com",
+    "project_id": "alertaseguridadciudadana",
+    "storage_bucket": "alertaseguridadciudadana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422228380038:android:03b37ec57d4e91a39e0407",
+        "android_client_info": {
+          "package_name": "com.example.alerta_seguridad_ciudadana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422228380038-u4s2chdp79i5g3rbj6iq2cemarqvrqi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtQbcNHOwp4_bQXau9O3XL5LS8zW2stU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422228380038-u4s2chdp79i5g3rbj6iq2cemarqvrqi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
