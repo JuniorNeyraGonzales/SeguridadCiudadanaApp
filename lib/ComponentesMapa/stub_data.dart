@@ -6,144 +6,144 @@ class StubData {
   static const List<Place> places = [
     Place(
       id: '1',
-      latLng: LatLng(45.524676, -122.681922),
+      latLng: LatLng(-7.714092, -79.108793),
       name: 'Choque',
       description:
-          'Choque del bus california con taxi. dos heridos',
+          'Choque del bus entrafesa con taxi. dos heridos',
       category: PlaceCategory.favorite,
       starRating: 5,
     ),
     Place(
       id: '2',
-      latLng: LatLng(45.516887, -122.675417),
+      latLng: LatLng(-7.714008, -79.107739),
       name: 'Incendio',
       description:
           'Incendio de vivienda, un muerto',
-      category: PlaceCategory.favorite,
+      category: PlaceCategory.wantToGo,
       starRating: 5,
     ),
     Place(
       id: '3',
-      latLng: LatLng(45.528952, -122.698344),
+      latLng: LatLng(-7.714462, -79.106973),
       name: 'Robo',
       description:
           'Robo al agente BCP',
-      category: PlaceCategory.favorite,
+      category: PlaceCategory.wantToGo,
       starRating: 5,
     ),
     Place(
       id: '4',
-      latLng: LatLng(45.525253, -122.684423),
-      name: 'TILT',
+      latLng: LatLng(-7.713585, -79.107946),
+      name: 'Comtaminacion Ambiental',
       description:
-          'This stylish American eatery offers unfussy breakfast fare, cocktails & burgers in industrial-themed digs.',
-      category: PlaceCategory.favorite,
+          'Monton de basura frente al colegio. Porfavor que pase el camion de bausra',
+      category: PlaceCategory.wantToGo,
       starRating: 4,
     ),
     Place(
       id: '5',
-      latLng: LatLng(45.513485, -122.657982),
-      name: 'White Owl Social Club',
+      latLng: LatLng(-7.713569, -79.107374),
+      name: 'Violencia Familiar',
       description:
-          'Chill haunt with local beers, burgers & vegan eats, plus live music & an airy patio with a fire pit.',
-      category: PlaceCategory.favorite,
+          'Mi esposo esta borracho y violento, ayuda porfavor',
+      category: PlaceCategory.wantToGo,
       starRating: 4,
     ),
     Place(
       id: '6',
-      latLng: LatLng(45.487137, -122.799940),
-      name: 'Buffalo Wild Wings',
+      latLng: LatLng(-7.713844, -79.109118),
+      name: 'Incendio',
       description:
-          'Lively sports-bar chain dishing up wings & other American pub grub amid lots of large-screen TVs.',
+          'Incendio en el Hotel Miraflores, que vengan los bombreos.',
       category: PlaceCategory.visited,
       starRating: 5,
     ),
     Place(
       id: '7',
-      latLng: LatLng(45.416986, -122.743171),
-      name: 'Chevys',
+      latLng: LatLng(-7.713671, -79.109880),
+      name: 'Robo',
       description:
-          'Lively, informal Mexican chain with a colorful, family-friendly setting plus tequilas & margaritas.',
+          'Asaltaron a mi hijo, le quitaron su laptop y celular.',
       category: PlaceCategory.visited,
       starRating: 4,
     ),
     Place(
       id: '8',
-      latLng: LatLng(45.430489, -122.831802),
-      name: 'Cinetopia',
+      latLng: LatLng(-7.713158, -79.108698),
+      name: 'Robo',
       description:
-          'Moviegoers can take food from the on-site eatery to their seats, with table service in 21+ theaters.',
+          'Asalto al Banco de la Nacion, el de seguridad esta herido de bala',
       category: PlaceCategory.visited,
       starRating: 4,
     ),
     Place(
       id: '9',
-      latLng: LatLng(45.383030, -122.758372),
-      name: 'Thai Cuisine',
+      latLng: LatLng(-7.713088, -79.107739),
+      name: 'Comercio Informal',
       description:
-          'Informal restaurant offering Thai standards in a modest setting, plus takeout & delivery.',
+          'Ambulante se apropiaron de la via, generando trafico vehicular.',
       category: PlaceCategory.visited,
       starRating: 4,
     ),
     Place(
       id: '10',
-      latLng: LatLng(45.493321, -122.669330),
-      name: 'The Old Spaghetti Factory',
+      latLng: LatLng(-7.715059, -79.107630),
+      name: 'Robo',
       description:
-          'Family-friendly chain eatery featuring traditional Italian entrees amid turn-of-the-century decor.',
+          'Ingresaron a mi casa a robar.',
       category: PlaceCategory.visited,
       starRating: 4,
     ),
     Place(
       id: '11',
-      latLng: LatLng(45.548606, -122.675286),
-      name: 'Mississippi Pizza',
+      latLng: LatLng(-7.713531, -79.106944),
+      name: 'Incendio',
       description:
-          'Music, trivia & other all-ages events featured at pizzeria with lounge & vegan & gluten-free pies.',
+          'Incendio de vehiculo en toda la avenida',
       category: PlaceCategory.wantToGo,
       starRating: 4,
     ),
     Place(
       id: '12',
-      latLng: LatLng(45.420226, -122.740347),
-      name: 'Oswego Grill',
+      latLng: LatLng(-7.713779, -79.107184),
+      name: 'Robo',
       description:
-          'Wood-grilled steakhouse favorites served in a casual, romantic restaurant with a popular happy hour.',
+          'Robo en el Restaurante "EL SABOR", todos los comensales fueron asaltados.',
       category: PlaceCategory.wantToGo,
       starRating: 4,
     ),
     Place(
       id: '13',
-      latLng: LatLng(45.541202, -122.676432),
-      name: 'The Widmer Brothers Brewery',
+      latLng: LatLng(-7.714492, -79.108246),
+      name: 'Violencia Familiar',
       description:
-          'Popular, enduring gastropub serving craft beers, sandwiches & eclectic entrees in a laid-back space.',
+          'Mi vencino le esta golpeando a su mujer.',
       category: PlaceCategory.wantToGo,
       starRating: 4,
     ),
     Place(
       id: '14',
-      latLng: LatLng(45.559783, -122.924103),
-      name: 'TopGolf',
+      latLng: LatLng(-7.714589, -79.108796),
+      name: 'Trafico',
       description:
-          'Sprawling entertainment venue with a high-tech driving range & swanky lounge with drinks & games.',
+          'Trafico altura del colegio Jesús El Nazareno, esta pasando el señor de los milagros.',
       category: PlaceCategory.wantToGo,
       starRating: 5,
     ),
     Place(
       id: '15',
-      latLng: LatLng(45.485612, -122.784733),
-      name: 'Uwajimaya Beaverton',
+      latLng: LatLng(-7.713909, -79.107173),
+      name: 'Robo',
       description:
-          'Huge Asian grocery outpost stocking meats, produce & prepared foods plus gifts & home goods.',
+          'Robo al agente BCP.',
       category: PlaceCategory.wantToGo,
       starRating: 5,
     ),
   ];
 
   static const List<String> reviewStrings = [
-    'My favorite place in Portand. The employees are wonderful and so is the food. I go here at least once a month!',
-    'Staff was very friendly. Great atmosphere and good music. Would reccommend.',
-    'Best. Place. In. Town. Period.'
+    'Robo en el Restaurante "EL SABOR", todos los comensales fueron asaltados.',
+    'Ambulante se apropiaron de la via, generando trafico vehicular.',
+    'Incendio en el Hotel Miraflores, que vengan los bombreos.'
   ];
 }

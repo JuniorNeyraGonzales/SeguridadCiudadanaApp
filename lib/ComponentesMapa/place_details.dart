@@ -322,7 +322,7 @@ class _Reviews extends StatelessWidget {
           child: Align(
             alignment: Alignment.topLeft,
             child: Text(
-              'Reviews',
+              'Más',
               style: TextStyle(
                 fontSize: 24.0,
                 fontWeight: FontWeight.bold,
