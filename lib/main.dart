@@ -1,5 +1,6 @@
 import 'package:alerta_seguridad_ciudadana/pages/homepage.dart';
 import 'package:alerta_seguridad_ciudadana/pages/login_page.dart';
+import 'package:alerta_seguridad_ciudadana/pages/opciones_menu/paginaNoticias.dart';
 import 'package:alerta_seguridad_ciudadana/pages/register_page.dart';
 import 'package:alerta_seguridad_ciudadana/pages/welcome.page.dart';
 import 'package:flutter/cupertino.dart';

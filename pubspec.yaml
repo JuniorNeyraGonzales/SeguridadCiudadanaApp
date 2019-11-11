@@ -27,6 +27,12 @@ dependencies:
   firebase_auth: ^0.14.0+8
   shared_preferences: ^0.5.4+3
   simple_animations: ^1.3.3
+  curved_navigation_bar: ^0.3.1
+  url_launcher: ^5.2.5
+  google_maps_flutter: ^0.5.21+8
+  uuid: ^2.0.2
+  webview_flutter: ^0.3.15+1
+  flutter_webview_plugin: ^0.3.8
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +54,7 @@ flutter:
   assets:
     - assets/escudo_ascope.png
     - assets/logo_letra.png
+    - assets/foto_perfil.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

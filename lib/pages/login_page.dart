@@ -43,7 +43,6 @@ class _LoginPageState extends State<LoginPage> with ValidationMixins{
                       colors: [
                         Color(0xFFE53935),
                         Color(0xFFEF9A9A),
-
                     ])
                   ),
                 ),
@@ -179,7 +178,7 @@ class _LoginPageState extends State<LoginPage> with ValidationMixins{
           var auth = await Authetication().loginUser(
               email: _emailController.text, password: _passwordController.text);
           if (auth.success) {
-            Navigator.pushReplacementNamed(context, 'homepage');
+            Navigator.pushNamed(context, 'homepage');
             _emailController.text = "";
             _passwordController.text = "";
           } else {
