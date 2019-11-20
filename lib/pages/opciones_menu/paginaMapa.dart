@@ -74,7 +74,7 @@ class _PlaceTrackerHomePage extends StatelessWidget {
         index:
             AppState.of(context).viewType == PlaceTrackerViewType.map ? 0 : 1,
         children: <Widget>[
-          PlaceMap(center: const LatLng(-8.109390, -79.027792)),
+          PlaceMap(center: const LatLng(-8.129197, -79.043190)),
           PlaceList(),
         ],
       ),

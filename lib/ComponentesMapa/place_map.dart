@@ -212,7 +212,8 @@ class PlaceMapState extends State<PlaceMap> {
       final newMarker = Marker(
         markerId: MarkerId(_lastMapPosition.toString()),
         position: _lastMapPosition,
-        infoWindow: InfoWindow(title: 'Escribir Incidencia'),
+        infoWindow: InfoWindow(title: 'Universidad Cesar Vallejo'),
+        
         draggable: true,
         icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueRed),
       );
@@ -350,7 +351,7 @@ class PlaceMapState extends State<PlaceMap> {
               onMapCreated: onMapCreated,
               initialCameraPosition: CameraPosition(
                 target: widget.center,
-                zoom: 11.0,
+                zoom: 20.0,
               ),
               mapType: _currentMapType,
               markers: _markers,

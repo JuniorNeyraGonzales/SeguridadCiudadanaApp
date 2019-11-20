@@ -6,7 +6,7 @@ class StubData {
   static const List<Place> places = [
     Place(
       id: '1',
-      latLng: LatLng(-7.714092, -79.108793),
+      latLng: LatLng(-8.127365, -79.045730),
       name: 'Choque',
       description:
           'Choque del bus entrafesa con taxi. dos heridos',
@@ -15,7 +15,7 @@ class StubData {
     ),
     Place(
       id: '2',
-      latLng: LatLng(-7.714008, -79.107739),
+      latLng: LatLng(-8.129203, -79.045451),
       name: 'Incendio',
       description:
           'Incendio de vivienda, un muerto',
@@ -24,7 +24,7 @@ class StubData {
     ),
     Place(
       id: '3',
-      latLng: LatLng(-7.714462, -79.106973),
+      latLng: LatLng(-8.127110, -79.0442173),
       name: 'Robo',
       description:
           'Robo al agente BCP',
@@ -33,7 +33,7 @@ class StubData {
     ),
     Place(
       id: '4',
-      latLng: LatLng(-7.713585, -79.107946),
+      latLng: LatLng(-8.130636, -79.044099),
       name: 'Comtaminacion Ambiental',
       description:
           'Monton de basura frente al colegio. Porfavor que pase el camion de bausra',
@@ -42,7 +42,7 @@ class StubData {
     ),
     Place(
       id: '5',
-      latLng: LatLng(-7.713569, -79.107374),
+      latLng: LatLng(-8.129659, -79.042055),
       name: 'Violencia Familiar',
       description:
           'Mi esposo esta borracho y violento, ayuda porfavor',
@@ -51,7 +51,7 @@ class StubData {
     ),
     Place(
       id: '6',
-      latLng: LatLng(-7.713844, -79.109118),
+      latLng: LatLng(-8.127917, -79.041926),
       name: 'Incendio',
       description:
           'Incendio en el Hotel Miraflores, que vengan los bombreos.',
@@ -60,7 +60,7 @@ class StubData {
     ),
     Place(
       id: '7',
-      latLng: LatLng(-7.713671, -79.109880),
+      latLng: LatLng(-8.129850, -79.041583),
       name: 'Robo',
       description:
           'Asaltaron a mi hijo, le quitaron su laptop y celular.',
@@ -69,7 +69,7 @@ class StubData {
     ),
     Place(
       id: '8',
-      latLng: LatLng(-7.713158, -79.108698),
+      latLng: LatLng(-8.130233, -79.0437078),
       name: 'Robo',
       description:
           'Asalto al Banco de la Nacion, el de seguridad esta herido de bala',
@@ -78,7 +78,7 @@ class StubData {
     ),
     Place(
       id: '9',
-      latLng: LatLng(-7.713088, -79.107739),
+      latLng: LatLng(-8.125984, -79.043943),
       name: 'Comercio Informal',
       description:
           'Ambulante se apropiaron de la via, generando trafico vehicular.',
@@ -87,7 +87,7 @@ class StubData {
     ),
     Place(
       id: '10',
-      latLng: LatLng(-7.715059, -79.107630),
+      latLng: LatLng(-8.129404, -79.044394),
       name: 'Robo',
       description:
           'Ingresaron a mi casa a robar.',
@@ -96,7 +96,7 @@ class StubData {
     ),
     Place(
       id: '11',
-      latLng: LatLng(-7.713531, -79.106944),
+      latLng: LatLng(-8.127726, -79.044823),
       name: 'Incendio',
       description:
           'Incendio de vehiculo en toda la avenida',
@@ -105,7 +105,7 @@ class StubData {
     ),
     Place(
       id: '12',
-      latLng: LatLng(-7.713779, -79.107184),
+      latLng: LatLng(-8.127015, -79.044329),
       name: 'Robo',
       description:
           'Robo en el Restaurante "EL SABOR", todos los comensales fueron asaltados.',
@@ -114,7 +114,7 @@ class StubData {
     ),
     Place(
       id: '13',
-      latLng: LatLng(-7.714492, -79.108246),
+      latLng: LatLng(-8.127376, -79.042677),
       name: 'Violencia Familiar',
       description:
           'Mi vencino le esta golpeando a su mujer.',
@@ -123,7 +123,7 @@ class StubData {
     ),
     Place(
       id: '14',
-      latLng: LatLng(-7.714589, -79.108796),
+      latLng: LatLng(-8.128438, -79.042109),
       name: 'Trafico',
       description:
           'Trafico altura del colegio Jesús El Nazareno, esta pasando el señor de los milagros.',
@@ -132,7 +132,7 @@ class StubData {
     ),
     Place(
       id: '15',
-      latLng: LatLng(-7.713909, -79.107173),
+      latLng: LatLng(-8.129681, -79.041926),
       name: 'Robo',
       description:
           'Robo al agente BCP.',
