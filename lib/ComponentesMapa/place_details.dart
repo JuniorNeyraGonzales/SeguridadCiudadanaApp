@@ -7,6 +7,7 @@ import 'place.dart';
 import 'stub_data.dart';
 
 class PlaceDetails extends StatefulWidget {
+
   const PlaceDetails({
     @required this.place,
     @required this.onChanged,
@@ -18,8 +19,25 @@ class PlaceDetails extends StatefulWidget {
   final Place place;
   final ValueChanged<Place> onChanged;
 
+  
+
   @override
   PlaceDetailsState createState() => PlaceDetailsState();
+}
+
+//Spinner
+class Incidencia {
+  int id;
+  String incidencianame;
+
+  Incidencia(this.id, this.incidencianame);
+
+ /* static List(Incidencia) getIncidencia(){
+    return <Incidencia>[
+      Incidencia(1, '')
+    ],
+  }*/
+  
 }
 
 class PlaceDetailsState extends State<PlaceDetails> {
@@ -29,11 +47,19 @@ class PlaceDetailsState extends State<PlaceDetails> {
 
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _descriptionController = TextEditingController();
+  final TextEditingController _roboController = TextEditingController();
+  final TextEditingController _incendioController = TextEditingController();
+  final TextEditingController _contaminacionController = TextEditingController();
+  final TextEditingController _violenciaController = TextEditingController();
 
   @override
   void initState() {
     _place = widget.place;
     _nameController.text = _place.name;
+    _roboController.text = _place.robo;
+    _incendioController.text = _place.incendio;
+    _contaminacionController.text = _place.contaminacion;
+    _violenciaController.text = _place.violencia;
     _descriptionController.text = _place.description;
     return super.initState();
   }
@@ -68,6 +94,7 @@ class PlaceDetailsState extends State<PlaceDetails> {
             });
           },
         ),
+        
         _StarBar(
           rating: _place.starRating,
           onChanged: (value) {
@@ -147,6 +174,27 @@ class _NameTextField extends StatelessWidget {
     );
   }
 }
+/* PARA SPINNER
+class _RoboSpinner extends StatelessWidget {
+  const _RoboSpinner({
+    @required this.controller,
+    @required this.onChanged,
+    Key key,
+    }) : assert(controller != null),
+        assert(onChanged != null),
+        super(key: key);
+
+      final TextEditingController controller;
+      final ValueChanged<String> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 16.0),
+      child: ,
+    );
+  }
+}*/
 
 class _DescriptionTextField extends StatelessWidget {
   const _DescriptionTextField({
